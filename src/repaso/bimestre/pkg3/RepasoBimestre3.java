@@ -10,6 +10,7 @@ public class RepasoBimestre3 {
         System.out.println("La diagonal principal es "+ diagonalPrincipal(notas)); 
     }
     
+    
     public static String diagonalPrincipal(int matriz[][]){
         String resultado = "";
         for (int i = 0; i < matriz.length; i++) {
